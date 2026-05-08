@@ -4,6 +4,7 @@
         <element display="true" label="Item" mandatory="true" max_length="125" name="item" type="string"/>
         <element label="Url" max_length="1024" name="url" type="url"/>
         <element label="Quantity" max_length="40" name="quantity" type="integer"/>
+        <element label="Display name" max_length="300" name="display_name" read_only="true" read_only_option="display_read_only" type="string"/>
         <index name="index">
             <element name="requester"/>
         </index>
